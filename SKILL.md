@@ -1,8 +1,10 @@
 ---
 name: still-growing
-version: 0.3.0
+version: 0.3.1
 description: |
   Still Growing / 第二代父母 — 困在自己没走完的成长里，把孩子当成答案的一代人。
+  
+  版本规则：每次 +0.0.1，100+ 次小步迭代后冲击 v1.0.0。
   
   底层哲学融合：
   - 慈悲是体，爱是用（心知）
