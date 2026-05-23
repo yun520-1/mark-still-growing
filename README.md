@@ -1,6 +1,6 @@
 ---
 name: still-growing
-version: 0.9.9
+version: 0.9.10
 description: Still Growing / 第二代父母 — 困在自己没走完的成长里，把孩子当成答案的一代人。
 tags:
   - parenting
@@ -32,7 +32,7 @@ tags:
 ## 核心路径
 
 ```
-觉察（看见恨）→ 接纳（慈悲是体）→ 暂停（给空间）→ 选择（爱是用）
+觉察（看见防御）→ 接纳（慈悲是体）→ 暂停（给空间）→ 选择（爱是用）
 ```
 
 ## 三个Audience

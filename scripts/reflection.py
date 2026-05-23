@@ -6,7 +6,7 @@ Still Growing - 每日反思提示生成器
 用法:
     python3 scripts/reflection.py           # 今日提示
     python3 scripts/reflection.py --deep  # 深度反思（5题）
-    python3 scripts/reflection.py --恨    # 听见恨主题
+    python3 scripts/reflection.py --防御  # 防御根源主题
     python3 scripts/reflection.py --list  # 列出所有提示类型
 """
 
@@ -16,12 +16,12 @@ from datetime import datetime
 
 # 反思主题库
 THEMES = {
-    "听见恨": [
+    "防御根源": [
         "今天孩子的哪个行为最让你崩溃？那一刻你感受到的是什么？",
         "当你说'我是为你好'时，你真正感受到的是什么？",
         "今天你对孩子发火了。发火背后，你感受到的是什么？",
         "孩子的'不听话'让你想起了什么？是你自己的童年吗？",
-        "如果把你今天的愤怒打分（0-10），背后是恨还是怕？",
+        "如果把你今天的愤怒打分（0-10），背后是防御信号还是恐惧？",
     ],
     "看见需求": [
         "孩子今天的行为，他想表达什么需求？",
@@ -127,7 +127,7 @@ def deep_reflection():
 ╠══════════════════════════════════════════════════════════╣
 ║  你做到了。                                             ║
 ║  反思不是为了自我批判，是为了看见。                     ║
-║  看见恨，才能找到爱。                                   ║
+║  看见防御，才能理解慈悲。                               ║
 ╚══════════════════════════════════════════════════════════╝
 """)
 
@@ -153,8 +153,8 @@ def main():
         list_themes()
     elif "--deep" in args:
         deep_reflection()
-    elif "--恨" in args:
-        theme, prompt = get_prompt("听见恨")
+    elif "--防御" in args:
+        theme, prompt = get_prompt("防御根源")
         print(f"\n主题: {theme}\n")
         print(f"  {prompt}\n")
     elif "--需求" in args:
