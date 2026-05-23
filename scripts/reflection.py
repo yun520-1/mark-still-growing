@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Still Growing - 每日反思提示生成器
-基于"恨比爱更原始"哲学的父母反思工具
+基于"防御比反应更原始"哲学的父母反思工具
 
 用法:
     python3 scripts/reflection.py           # 今日提示
