@@ -23,6 +23,9 @@
 19. Nature Human Behaviour (2024) Post-pandemic child development research
 20. Nature Neuroscience (2024) FKBP5 epigenetics longitudinal tracking; Yehuda et al. (2024)
 21. World Bank (2024) Development Report - parenting and economic insecurity
+22. **Intergenerational Transmission of Trauma: The Mediating Role of Parenting Emotion Regulation (2025)** ⭐ NEW
+23. **The Silent Echoes of War: Parenting and Trauma Transmission in Bosnia and Herzegovina (2025)** ⭐ NEW
+24. **Ukrainian Adaptation of HITT-Q (Historical Intergenerational Trauma Transmission Questionnaire) (2025)** ⭐ NEW
 
 ## 关键统计数据集
 

@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.9.11] — 2026-05-24
+
+### 新增2025年学术研究支撑
+- **新增论文**："Intergenerational Transmission of Trauma: The Mediating Role of Parenting Emotion Regulation" (2025)
+  - 来源：Semantic Scholar
+  - 核心发现：父母童年经历通过**情绪调节能力**影响子女社会情绪问题
+  - 直接支撑本技能核心框架：父母的防御模式通过情绪调节传递给下一代
+- **新增论文**："The Silent Echoes of War: Parenting and Trauma Transmission in Bosnia and Herzegovina" (2025)
+  - 来源：Semantic Scholar
+  - 主题：战争创伤的代际传递与育儿方式
+- **新增论文**："Ukrainian Adaptation of HITT-Q" (Historical Intergenerational Trauma Transmission Questionnaire) (2025)
+  - 来源：Semantic Scholar
+  - 主题：历史创伤代际传递问卷的心理测量学验证
+
+### 理论框架更新
+- **新增洞察**：父母的情绪调节能力是连接"童年创伤"与"子女问题"的**关键中介变量**
+  - 这解释了为什么同样的创伤经历，不同的父母会有不同的育儿结果
+  - 临床意义：干预目标不是"消除创伤"，而是"提升情绪调节能力"
+- **强化慈悲是体、爱是用**：通过实证研究说明，情绪调节（慈悲的内在修炼）如何外化为育儿行为（爱的表达）
+
+### 新增场景对话
+- **场景62：父母的情绪调节——从"被触发"到"选择回应"**
+  - 新增场景，聚焦2025年新研究发现：情绪调节能力是代际传递的关键中介变量
+
 ## [0.9.10] — 2026-05-28
 
 ### 核心升级：身份声明 + 7条核心指令
