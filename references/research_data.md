@@ -100,3 +100,222 @@
 8. Barber, B.K. (1996). Parental Psychological Control. Journal of Marriage and Family.
 9. Ryan, R.M. & Deci, E.L. (2017). Self-Determination Theory. Guilford Press.
 10. Hoffman, M.L. (2000). Empathy and Moral Development. Cambridge University Press.
+
+
+## 批次0 - 2026-05-24 00:19
+
+### mindful parenting children anxiety reduction
+- 搜索失败: can only concatenate list (not "int") to list
+
+### intergenerational trauma Chinese parents 80s 90s
+- 搜索失败: can only concatenate list (not "int") to list
+
+### adverse childhood experiences ACEs long-term health
+- 搜索失败: can only concatenate list (not "int") to list
+
+### attachment theory children parenting styles outcomes
+- 搜索失败: can only concatenate list (not "int") to list
+
+## 批次 - 2026-05-24 00:19
+
+### intergenerational trauma Chinese parents 80s 90s
+- **Independent living in later life** (2004), 引用:24
+- **WeChat online visual language among Chinese Gen Z: virtual gift, aesthetic identity, and affection l** (2023), 引用:8
+- **Digital Resources and the Magazine Context of Edith Wharton's Short Stories** (2015), 引用:21
+
+### parental burnout syndrome children development
+- **Overuse Injuries and Burnout in Youth Sports** (2013), 引用:344
+- **Trauma-Informed Care in Child Health Systems** (2021), 引用:132
+- **Effects of COVID-19 on College Students’ Mental Health in the United States: Interview Survey Study** (2020), 引用:2781
+
+### children ADHD learning disabilities support therapy
+- **The International Classification of Headache Disorders, 3rd edition (beta version)** (2013), 引用:8204
+- **Traumatic brain injury: integrated approaches to improve prevention, clinical care, and research** (2017), 引用:2510
+- **Methylphenidate: Its Pharmacology and Uses** (2000), 引用:412
+
+### emotion coaching children psychology Gottman
+- **Comparisons of various types of normality tests** (2011), 引用:871
+- **The Parent's Capacity to Treat the Child as a Psychological Agent: Constructs, Measures and Implicat** (2008), 引用:473
+- **The Psychology of Change: Self-Affirmation and Social Psychological Intervention** (2014), 引用:1158
+
+### adolescent rebellion parent conflict psychology
+- **On psychological growth and vulnerability: Basic psychological need satisfaction and need frustratio** (2013), 引用:2059
+- **Adolescent Psychological Development** (2008), 引用:59
+- **Psychosocial Care for People With Diabetes: A Position Statement of the American Diabetes Associatio** (2016), 引用:1042
+
+### mindful parenting children anxiety reduction
+- **Mindfulness training effects for parents and educators of children with special needs.** (2012), 引用:363
+- **Reducing Distress in Mothers of Children With Autism and Other Disabilities: A Randomized Trial** (2014), 引用:347
+- **Interventions that target improvements in mental health for parents of children with autism spectrum** (2016), 引用:174
+
+### domestic violence children psychological PTSD
+- **The Mental Health Consequences of COVID-19 and Physical Distancing** (2020), 引用:2187
+- **Psychological therapies for the treatment of post-traumatic stress disorder in children and adolesce** (2012), 引用:237
+- **COVID-19: Reducing the risk of infection might increase the risk of intimate partner violence** (2020), 引用:498
+
+### corporal punishment children behavioral problems
+- **Corporal punishment of adolescents by parents: a risk factor in the epidemiology of depression, suic** (1994), 引用:259
+- **Corporal Punishment, Maternal Warmth, and Child Adjustment: A Longitudinal Study in Eight Countries** (2014), 引用:241
+- **Age Trends in the Association between Parenting Practices and Conduct Problems** (1999), 引用:350
+
+### children mental health trends social media
+- **Mitigate the effects of home confinement on children during the COVID-19 outbreak** (2020), 引用:2181
+- **Parent reports of adolescents and young adults perceived to show signs of a rapid onset of gender dy** (2018), 引用:363
+- **Emerging Adulthood and College‐aged Youth: An Overlooked Age for Weight‐related Behavior Change** (2008), 引用:1292
+
+### child developmental needs psychology stages
+- **Moral Identity and Developmental Theory** (2015), 引用:3829
+- **Parent-Child Play across Cultures : Advancing Play Research** (2015), 引用:67
+- **Cognitive development: No stages please ‐ we're British** (2001), 引用:30
+
+### positive discipline parenting effectiveness evidence
+- **Video‑feedback intervention to promote positive parenting and sensitive discipline: Development and ** (2018), 引用:17
+- **Initial Impact of the Fast Track Prevention Trial for Conduct Problems: I. The High-Risk Sample** (1999), 引用:375
+- **Meta-Analyses: Key Parenting Program Components for Disruptive Child Behavior** (2018), 引用:297
+
+### children social skills peer relationships
+- **Apprenticeship in Thinking** (1990), 引用:4564
+- **Peer Rejection in Childhood.** (1991), 引用:2282
+- **The evolution of human sexuality** (1980), 引用:2518
+
+### parental emotion regulation mindfulness
+- **Parental Mindfulness and Preschool Children’s Emotion Regulation: the Role of Mindful Parenting and ** (2019), 引用:86
+- **Associations from Parental Mindfulness and Emotion Regulation to Child Emotion Regulation Through Pa** (2021), 引用:33
+- **Examining the Mediating Role of Mindful Parenting: A Study on the Relationship Between Parental Emot** (2022), 引用:23
+
+### attachment theory children parenting styles outcomes
+- **Attachment avoidance moderates the effects of parenting on Chinese adolescents’ having an inner comp** (2018), 引用:92
+- **Improving school readiness of high-risk preschoolers: Combining high quality instructional strategie** (2017), 引用:80
+- **In their own words: abused children's perceptions of care provided by their birth parents and foster** (2015), 引用:21
+
+### parent child family therapy effectiveness
+- **The Effectiveness of Parent–Child Interaction Therapy for Families of Children on the Autism Spectru** (2008), 引用:272
+- **Effectiveness of Parent—Child Interaction Therapy (PCIT) Among Chinese Families** (2008), 引用:118
+- **Effectiveness of Parent–Child Interaction Therapy Delivered to At-Risk Families in the Home Setting** (2012), 引用:64
+
+### adolescent depression family interventions
+- **Reducing depression among at-risk early adolescents: Three-year effects of a family-centered interve** (2008), 引用:128
+- **Family Acceptance in Adolescence and the Health of LGBT Young Adults** (2010), 引用:1392
+- **Family Intervention to Prevent Depression and Substance Use Among Adolescents of Depressed Parents** (2011), 引用:34
+
+### intergenerational trauma transmission mechanisms
+- **Intergenerational transmission of trauma effects: putative role of epigenetic mechanisms** (2018), 引用:662
+- **Crossing borders: a systematic review identifying potential mechanisms of intergenerational trauma t** (2020), 引用:86
+- **Holocaust Exposure Induced Intergenerational Effects on FKBP5 Methylation** (2015), 引用:756
+
+### anxious children cognitive behavioral therapy
+- **Evaluating a cognitive behavioral therapy group program for anxious five to seven year old children:** (2009), 引用:59
+- **Parent-Directed Cognitive Behavioral Therapy for Young Anxious Children: A Pilot Study** (2011), 引用:32
+- **Comparison of Child–Parent and Parent-Only Cognitive-Behavioral Therapy Programs for Anxious Childre** (2014), 引用:65
+
+### parent child communication training effectiveness
+- **Parent implemented early intervention for young children with autism spectrum disorder: a systematic** (2006), 引用:592
+- **Initial Impact of the Fast Track Prevention Trial for Conduct Problems: I. The High-Risk Sample** (1999), 引用:375
+- **Engaging Parents to Increase Youth Physical Activity** (2009), 引用:225
+
+### adverse childhood experiences ACEs long-term health
+- **Adverse childhood experiences and mental health in young adults: a longitudinal survey** (2007), 引用:929
+- **Adverse Childhood Experiences and Smoking During Adolescence and Adulthood** (1999), 引用:1262
+- **Making the case for ACEs: adverse childhood experiences, obesity, and long-term health** (2019), 引用:17
+
+## 批次 - 2026-05-24 00:21
+
+### intergenerational trauma Chinese parents 80s 90s
+- **Independent living in later life** (2004), 引用:24
+- **WeChat online visual language among Chinese Gen Z: virtual gift, aesthetic identity, and affection l** (2023), 引用:8
+- **Digital Resources and the Magazine Context of Edith Wharton's Short Stories** (2015), 引用:21
+
+### mindful parenting children anxiety reduction
+- **Mindfulness training effects for parents and educators of children with special needs.** (2012), 引用:363
+- **Reducing Distress in Mothers of Children With Autism and Other Disabilities: A Randomized Trial** (2014), 引用:347
+- **Interventions that target improvements in mental health for parents of children with autism spectrum** (2016), 引用:174
+
+### parent child communication training effectiveness
+- **Parent implemented early intervention for young children with autism spectrum disorder: a systematic** (2006), 引用:592
+- **Initial Impact of the Fast Track Prevention Trial for Conduct Problems: I. The High-Risk Sample** (1999), 引用:375
+- **Engaging Parents to Increase Youth Physical Activity** (2009), 引用:225
+
+### children mental health trends social media
+- **Mitigate the effects of home confinement on children during the COVID-19 outbreak** (2020), 引用:2181
+- **Parent reports of adolescents and young adults perceived to show signs of a rapid onset of gender dy** (2018), 引用:363
+- **Emerging Adulthood and College‐aged Youth: An Overlooked Age for Weight‐related Behavior Change** (2008), 引用:1292
+
+### emotion coaching children psychology Gottman
+- **Comparisons of various types of normality tests** (2011), 引用:871
+- **The Parent's Capacity to Treat the Child as a Psychological Agent: Constructs, Measures and Implicat** (2008), 引用:473
+- **The Psychology of Change: Self-Affirmation and Social Psychological Intervention** (2014), 引用:1158
+
+### parental emotion regulation mindfulness
+- **Parental Mindfulness and Preschool Children’s Emotion Regulation: the Role of Mindful Parenting and ** (2019), 引用:86
+- **Associations from Parental Mindfulness and Emotion Regulation to Child Emotion Regulation Through Pa** (2021), 引用:33
+- **Examining the Mediating Role of Mindful Parenting: A Study on the Relationship Between Parental Emot** (2022), 引用:23
+
+### child developmental needs psychology stages
+- **Moral Identity and Developmental Theory** (2015), 引用:3829
+- **Parent-Child Play across Cultures : Advancing Play Research** (2015), 引用:67
+- **Cognitive development: No stages please ‐ we're British** (2001), 引用:30
+
+### domestic violence children psychological PTSD
+- **The Mental Health Consequences of COVID-19 and Physical Distancing** (2020), 引用:2187
+- **Psychological therapies for the treatment of post-traumatic stress disorder in children and adolesce** (2012), 引用:237
+- **COVID-19: Reducing the risk of infection might increase the risk of intimate partner violence** (2020), 引用:498
+
+### children social skills peer relationships
+- **Apprenticeship in Thinking** (1990), 引用:4564
+- **Peer Rejection in Childhood.** (1991), 引用:2282
+- **The evolution of human sexuality** (1980), 引用:2518
+
+### positive discipline parenting effectiveness evidence
+- **Video‑feedback intervention to promote positive parenting and sensitive discipline: Development and ** (2018), 引用:17
+- **Initial Impact of the Fast Track Prevention Trial for Conduct Problems: I. The High-Risk Sample** (1999), 引用:375
+- **Meta-Analyses: Key Parenting Program Components for Disruptive Child Behavior** (2018), 引用:297
+
+### anxious children cognitive behavioral therapy
+- **Evaluating a cognitive behavioral therapy group program for anxious five to seven year old children:** (2009), 引用:59
+- **Parent-Directed Cognitive Behavioral Therapy for Young Anxious Children: A Pilot Study** (2011), 引用:32
+- **Comparison of Child–Parent and Parent-Only Cognitive-Behavioral Therapy Programs for Anxious Childre** (2014), 引用:65
+
+### parental burnout syndrome children development
+- **Overuse Injuries and Burnout in Youth Sports** (2013), 引用:344
+- **Trauma-Informed Care in Child Health Systems** (2021), 引用:132
+- **Effects of COVID-19 on College Students’ Mental Health in the United States: Interview Survey Study** (2020), 引用:2781
+
+### parent child family therapy effectiveness
+- **The Effectiveness of Parent–Child Interaction Therapy for Families of Children on the Autism Spectru** (2008), 引用:272
+- **Effectiveness of Parent—Child Interaction Therapy (PCIT) Among Chinese Families** (2008), 引用:118
+- **Effectiveness of Parent–Child Interaction Therapy Delivered to At-Risk Families in the Home Setting** (2012), 引用:64
+
+### attachment theory children parenting styles outcomes
+- **Attachment avoidance moderates the effects of parenting on Chinese adolescents’ having an inner comp** (2018), 引用:92
+- **Improving school readiness of high-risk preschoolers: Combining high quality instructional strategie** (2017), 引用:80
+- **In their own words: abused children's perceptions of care provided by their birth parents and foster** (2015), 引用:21
+
+### children ADHD learning disabilities support therapy
+- **The International Classification of Headache Disorders, 3rd edition (beta version)** (2013), 引用:8204
+- **Traumatic brain injury: integrated approaches to improve prevention, clinical care, and research** (2017), 引用:2510
+- **Methylphenidate: Its Pharmacology and Uses** (2000), 引用:412
+
+### adolescent rebellion parent conflict psychology
+- **On psychological growth and vulnerability: Basic psychological need satisfaction and need frustratio** (2013), 引用:2059
+- **Adolescent Psychological Development** (2008), 引用:59
+- **Psychosocial Care for People With Diabetes: A Position Statement of the American Diabetes Associatio** (2016), 引用:1042
+
+### adverse childhood experiences ACEs long-term health
+- **Adverse childhood experiences and mental health in young adults: a longitudinal survey** (2007), 引用:929
+- **Adverse Childhood Experiences and Smoking During Adolescence and Adulthood** (1999), 引用:1262
+- **Making the case for ACEs: adverse childhood experiences, obesity, and long-term health** (2019), 引用:17
+
+### corporal punishment children behavioral problems
+- **Corporal punishment of adolescents by parents: a risk factor in the epidemiology of depression, suic** (1994), 引用:259
+- **Corporal Punishment, Maternal Warmth, and Child Adjustment: A Longitudinal Study in Eight Countries** (2014), 引用:241
+- **Age Trends in the Association between Parenting Practices and Conduct Problems** (1999), 引用:350
+
+### adolescent depression family interventions
+- **Reducing depression among at-risk early adolescents: Three-year effects of a family-centered interve** (2008), 引用:128
+- **Family Acceptance in Adolescence and the Health of LGBT Young Adults** (2010), 引用:1392
+- **Family Intervention to Prevent Depression and Substance Use Among Adolescents of Depressed Parents** (2011), 引用:34
+
+### intergenerational trauma transmission mechanisms
+- **Intergenerational transmission of trauma effects: putative role of epigenetic mechanisms** (2018), 引用:662
+- **Crossing borders: a systematic review identifying potential mechanisms of intergenerational trauma t** (2020), 引用:86
+- **Holocaust Exposure Induced Intergenerational Effects on FKBP5 Methylation** (2015), 引用:756

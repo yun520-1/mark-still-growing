@@ -7,7 +7,7 @@ VERSION 文件是唯一真相源。所有版本引用都从这里同步。
 ## 文件结构
 
 ```
-mark-still-growing/
+fu-mu-gong-ke/
 ├── VERSION              # 唯一版本真相源
 ├── SKILL.md            # frontmatter version 同步自 VERSION
 ├── VERSION_RULE.md      # 当前版本信息

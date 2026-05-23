@@ -1,4 +1,4 @@
-# Still Growing - 升级原则与教训
+# 父母的功课 - 升级原则与教训
 
 ## 升级设计原则（来自会话教训，2026-05-28）
 
@@ -25,4 +25,4 @@
 
 - OpenAlex API可用，是唯一可靠的学术论文搜索API
 - GitHub育儿相关代码仓库质量普遍较低
-- 源文件（~/.jvs/.openclaw/skills/skills/still-growing/）与目标文件（~/.hermes/skills/mark-still-growing/）并行存在，升级时从源读取增量内容
+- 源文件（~/.jvs/.openclaw/skills/skills/still-growing/）与目标文件（~/.hermes/skills/fu-mu-gong-ke/）并行存在，升级时从源读取增量内容

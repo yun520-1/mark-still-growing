@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Still Growing - 养育评估工具
+父母的功课 - 养育评估工具
 科学量表评分系统
 
 用法:
