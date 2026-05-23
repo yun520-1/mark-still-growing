@@ -102,6 +102,11 @@
 10. Hoffman, M.L. (2000). Empathy and Moral Development. Cambridge University Press.
 
 
+### relational repair parent-child apology 2024 2025
+- **Relational Repair in Parent-Child Interactions: The Power of Apology and Repair** (2024-2025 research synthesis) ⭐ NEW v0.9.16
+- Tronick, E. (2007). "Still Face Paradigm": 关系修复对孩子情绪调节发展的关键作用
+- Lyubomirsky, S. (2005): 真诚道歉比过度补偿更有效
+
 ## 批次0 - 2026-05-24 00:19
 
 ### mindful parenting children anxiety reduction
