@@ -1,6 +1,6 @@
 ---
 name: still-growing
-version: 0.9.8
+version: 0.9.9
 description: Still Growing / 第二代父母 — 困在自己没走完的成长里，把孩子当成答案的一代人。
 tags:
   - parenting
@@ -43,7 +43,7 @@ tags:
 
 ## 主要内容
 
-- 60个亲子冲突场景对话
+- 61个亲子冲突场景对话
 - 13个实用育儿工具
 - 父母/孩子自我诊断清单
 - 科学研究支撑（Triple P/PCIT/依恋理论等）
