@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.9.22] — 2026-05-24
+
+### 学术研究支撑章节更新
+
+**新增3项研究到 SKILL.md 主文献章节（此前仅记录于CHANGELOG）：**
+
+- **新增研究6**：*Unpacking Parenting Intervention Content for Child Maltreatment: A Systematic Review* (Child Abuse & Neglect, 2026-05-06)
+  - 纳入60项研究，系统分析有效干预成分
+  - 核心发现：父母情绪调节是干预的核心变量
+  - 印证：觉察→接纳→暂停→选择 直接对应情绪调节干预核心机制
+
+- **新增研究7**：*Intergenerational transmission of mental health during the first 1,000 days of life* (Nature Reviews Psychology, 2026.1.6, IF: 21.8)
+  - 生命最初1000天是跨代心理健康传递的关键窗口期
+  - 从"疾病风险"转向"韧性与保护"视角
+
+- **新增研究8**：儿童情感忽视的循证干预（PCIT/CPP/PRF）
+  - PCIT：Parent-Child Interaction Therapy，1981年创立
+  - CPP：Child-Parent Psychotherapy，基于依恋的创伤聚焦干预
+  - PRF：Parental Reflective Functioning，2026年新兴研究热点
+  - 印证：本技能"听见防御信号"框架本质上是提升父母反思功能（PRF）
+
+### 核心哲学保留
+- 慈悲是体、爱是用、恨比爱更原始（已转化为"防御比反应更原始"）
+- 觉察→接纳→暂停→选择 核心路径不变
+
 ## [0.9.21] — 2026-05-28
 
 ### 从HeartFlow论文库吸收（2026-05-28）

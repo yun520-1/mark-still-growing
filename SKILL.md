@@ -1,6 +1,6 @@
 ---
 name: fu-mu-gong-ke
-version: 0.9.21
+version: 0.9.22
 description: |
   父母的功课 — 困在自己没走完的成长里，把孩子当成答案的一代人。
   底层逻辑：未完成的成长——无法理解世界规则的人，被规则困住，用伤害彼此的方式试图被理解。
@@ -367,6 +367,29 @@ license: MIT
 - **期刊**：Family Relations
 - **结论**：教育焦虑→威权教养→儿童内化/外化问题；儿童学习能力调节此关系
 - **DOI**：`10.1111/fare.13135`
+
+### 6. 有效育儿干预的2026年系统综述 ⭐ NEW (v0.9.22)
+- **论文**：*Unpacking Parenting Intervention Content for Child Maltreatment: A Systematic Review* (Child Abuse & Neglect, 2026-05-06)
+- **数据**：纳入60项研究，系统分析有效干预成分
+- **核心发现**：
+  - 父母情绪调节是干预的核心变量
+  - 有效行为改变技术：社会支持和行为操作指导
+- **印证**：本技能核心路径"觉察→接纳→暂停→选择"直接对应情绪调节干预的核心机制
+
+### 7. 代际心理健康传递 ⭐ NEW (v0.9.22)
+- **论文**：*Intergenerational transmission of mental health during the first 1,000 days of life* (Nature Reviews Psychology, 2026.1.6, IF: 21.8)
+- **核心发现**：
+  - 生命最初1000天是跨代心理健康传递的关键窗口期
+  - 从"疾病风险"转向"韧性与保护"视角
+  - 整合五大研究设计：家族设计、纵向出生队列、人群数据联动、自然实验及元分析
+- **印证**：早期干预的神经生物学基础，支持本技能对"第二代父母"觉醒重要性的论证
+
+### 8. 儿童情感忽视的循证干预 ⭐ NEW (v0.9.22)
+- **干预方法**：
+  - **PCIT (Parent-Child Interaction Therapy)**：亲子互动治疗，1981年创立，通过改善亲子互动质量减少儿童行为问题
+  - **CPP (Child-Parent Psychotherapy)**：基于依恋的创伤聚焦干预，适用于0-5岁受情感忽视的儿童
+  - **Parental Reflective Functioning (PRF)**：2026年新兴研究热点，指父母理解孩子内心状态的能力，与儿童情绪调节正相关
+- **印证**：本技能"听见防御信号"框架本质上是提升父母反思功能（PRF）——理解孩子行为背后的心理需求
 
 ## 底层哲学
 

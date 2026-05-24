@@ -1,10 +1,43 @@
-# 吸码工作流：从项目源码提取模式并整合进技能
+# 吸码工作流：从项目源码或文档库提取内容并整合进技能
 
 > 触发条件：用户说"读取X项目，吸收代码"或"从X项目学习"。
+> **也可用于：从文档库/论文章库吸收内容（如 /Users/apple/Documents/HeartFlow 的PDF集合）。**
 
 ---
 
 ## 工作流
+
+### Step 0：判断是源码还是文档库
+
+| 类型 | 特征 | 读取工具 |
+|------|------|---------|
+| 源码项目 | .py/.js/.ts文件 | 直接读文件 |
+| 论文章库 | .pdf文件大量堆积 | pdftotext / pdfminer |
+| 文档集合 | .md/.txt大量 | glob + read_file |
+
+**⚠️ 读取PDF的陷阱：**
+- `pdftotext`（系统工具）优先：更快，但可能未安装
+- `pdfminer`（Python库）是备用：`from pdfminer.high_level import extract_text`
+- 学术论文前100行通常包含：摘要、引言、结论 → 够判断相关性
+- 全文太长的用关键词搜索定位关键段：`for i, line in enumerate(lines): if 'keyword' in line.lower()`
+
+**946个PDF的过滤策略（HeartFlow教训）：**
+```python
+keywords = [
+    'consciousness', 'emotion', 'parenting', 'child', 'development',
+    'trauma', 'mindful', 'meditat', 'memory', 'sleep', 'dream',
+    'attachment', 'regulat', 'wellbeing', 'mental health',
+    'psychology', 'psychological', 'stress', 'anxiety',
+    'therap', 'intervention', 'infant', 'maternal', 'phenomenon'
+]
+# 扫描所有PDF，按关键词命中数排序
+# 取前10-20个最相关的深入读取
+```
+
+**为什么过滤有效：**
+- 946个PDF中，99%是AI/ML论文，只有1%与心理学/养育直接相关
+- 关键词过滤能快速定位真正相关的论文
+- 深入读4个相关PDF，比扫描全部946个更有价值
 
 ### Step 1：探索项目结构
 
