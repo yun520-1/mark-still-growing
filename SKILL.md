@@ -1,6 +1,6 @@
 ---
 name: fu-mu-gong-ke
-version: 0.9.36
+version: 0.9.37
 description: |
   父母的功课 — 困在自己没走完的成长里，把孩子当成答案的一代人。
   底层逻辑：未完成的成长——无法理解世界规则的人，被规则困住，用伤害彼此的方式试图被理解。
@@ -631,6 +631,27 @@ license: MIT
   - **CPP (Child-Parent Psychotherapy)**：基于依恋的创伤聚焦干预，适用于0-5岁受情感忽视的儿童
   - **Parental Reflective Functioning (PRF)**：2026年新兴研究热点，指父母理解孩子内心状态的能力，与儿童情绪调节正相关
 - **印证**：本技能"听见防御信号"框架本质上是提升父母反思功能（PRF）——理解孩子行为背后的心理需求
+
+### 9. 青少年非自杀性自伤的父母心理体验 ⭐ NEW (v0.9.37)
+- **论文**：*Psychological experiences of parents of adolescent patients with non-suicidal self-injury* (2025, 8 citations)
+- **核心发现**：
+  - 当孩子出现非自杀性自伤时，父母经历5阶段心理过程：震惊与否认→极度恐惧与担忧→自我归因与自责→愤怒与无力→持续性焦虑
+  - 父母的心理健康直接影响孩子的康复进程
+  - 家庭治疗比单纯的孩子治疗效果更好
+- **实践启示**：
+  - 父母先照顾好自己的心理健康，孩子才能从你身上学到情绪调节
+  - 孩子的自伤不是你的失败，但它可能是一个改变的信号
+  - 参与家庭治疗，不只是让孩子单独接受治疗
+
+### 10. 父母情绪调节与儿童发展的纵向研究 ⭐ NEW (v0.9.37)
+- **来源**：*Parental self-regulation and engagement in emotion socialization: A systematic review* (2024, 27 citations); *Cross-lagged panel model of maternal emotion regulation and child behavior* (2025)
+- **核心发现**：
+  - 母亲产前压力 → 儿童行为问题具有显著预测作用
+  - 母亲情绪调节能力 → 影响儿童情绪调节能力的代际传递
+  - 这种传递在儿童早期（0-6岁）尤为显著
+- **实践启示**：
+  - 当你被孩子"触发"时，那个反应可能来自你自己的童年
+  - 每一代人的情绪调节能力都可以通过有意识的干预来提升
 
 ## 底层哲学
 
