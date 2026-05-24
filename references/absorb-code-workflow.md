@@ -7,13 +7,32 @@
 
 ## 工作流
 
-### Step 0：判断是源码还是文档库
+### Step 0：判断来源优先级（用户明确指定时优先用户指定的）
 
-| 类型 | 特征 | 读取工具 |
-|------|------|---------|
-| 源码项目 | .py/.js/.ts文件 | 直接读文件 |
-| 论文章库 | .pdf文件大量堆积 | pdftotext / pdfminer |
-| 文档集合 | .md/.txt大量 | glob + read_file |
+| 优先级 | 来源 | 何时用 | 读取工具 |
+|--------|------|--------|---------|
+| **1** | **HeartFlow源码**（`~/.hermes/skills/ai/mark-heartflow-skill/src/`） | 用户说"从心虫吸收"或涉及心理/认知/情绪模式 | `find + cat`直接读.ts/.js文件 |
+| 2 | 文档库（PDF/markdown） | 用户提到具体项目或文档库 | pdftotext / glob + read_file |
+| 3 | Web搜索（OpenAlex等） | 需要学术研究支撑但源码无相关内容 | OpenAlex API（免费无限制） |
+
+> **优先级原则**：当用户说"可以从X吸收"时，X就是1号优先级。心虫源码包含83个模块，涵盖具身认知、自我疗愈、盲区破解等完整模式，比搜索更快更准。
+
+**⚠️ HeartFlow源码扫描策略（83个文件）：**
+```python
+# 先grep关键词定位相关模块
+files = subprocess.run(['find', HF_SRC, '-name', '*.js'], capture_output=True).stdout.split()
+for f in files:
+    content = open(f).read()
+    if keyword in content:  # 心理学关键词
+        print(f)  # 定位到的文件
+
+# 高价值模块：
+# blind-spot-breaker.js  → 评估/觉察协议
+# embodied-core.js         → 具身认知/按停技术
+# spontaneous-restraint.js → 克制引擎/无为判断
+# self-healing-rl.js      → 自愈模式
+# psychology/engine.js    → 心理学引擎
+```
 
 **⚠️ 读取PDF的陷阱：**
 - `pdftotext`（系统工具）优先：更快，但可能未安装
@@ -163,3 +182,4 @@ Do NOT:
 | 项目 | 日期 | 吸收内容 | 目标技能 |
 |------|------|---------|---------|
 | HeartFlow论文章库 | 2026-05-28 | "父母的大脑"神经科学模块+"科技分心"章节+"青少年大脑"发育事实+执行功能/情绪调节研究数据 | mark-still-growing |
+| HeartFlow心虫源码 | 2026-05-29 | 愤怒按停术(STOP Protocol)+BlindSpotBreaker养育反思协议+SpontaneousRestraint克制引擎 → 转化为父母可用的按停步骤和AI对话示例 | mark-still-growing |
