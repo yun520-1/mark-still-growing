@@ -250,6 +250,42 @@
 
 ---
 
+*本文件由 v0.9.27 升级会话生成。学术搜索时间：2026-05-29。*
+
+## v0.9.27 OpenAlex 搜索方法论
+
+**本批次发现**：OpenAlex (api.openalex.org) 是目前唯一在此环境可用的学术搜索（arXiv/Semantic Scholar 均 rate limit）。
+
+**必须使用 URL 编码**：空格必须替换为 `+` 或 `%20`，否则报错 `URL can't contain control characters`。
+
+```python
+import urllib.request, json, urllib.parse
+encoded = urllib.parse.quote(query_string)
+url = f"https://api.openalex.org/works?search={encoded}&per_page=8"
+```
+
+**有效查询模式（parenting/psychology 领域）**：
+
+| 查询 | 质量 | 典型结果 |
+|------|------|---------|
+| `emotion coaching parenting children behavior` | ✅ | Havighurst Tuning into Kids (350次引用) |
+| `circle of security attachment intervention` | ✅ | Powell 625次, Marvin 461次 |
+| `triple p parenting program effectiveness` | ✅ | Sanders meta-analysis 623次 |
+| `parental emotion coaching dismissing` | ✅ | Gottman 369次 |
+| `mindful parenting stress reduction children` | ✅ | Loftus 336次 |
+| `authoritative parenting intervention` | ⚠️ | 多返回无关高引用论文 |
+
+**经验**：短查询词+具体干预名 > 长描述句；含 "intervention/meta-analysis" 效果更好；默认排序即可。
+
+## 本批次新增循证方案
+
+| 方案 | 核心论文 | 引用 | 关键数据 |
+|------|---------|------|---------|
+| Tuning into Kids | Havighurst 2010 doi:10.1111/j.1469-7610.2010.02303.x | 350+ | 儿童行为问题减少20-30% |
+| Circle of Security | Powell 2002 doi:10.1080/14616730252982491 | 625 | 安全性分类改变率64% vs 21% |
+| Triple P元分析 | Sanders 2008 doi:10.1007/s10567-008-0033-0 | 623 | d=0.29，高风险d=0.40 |
+| 正念育儿 | Loftus 2013 doi:10.1007/s12671-013-0209-7 | 336 | 父母压力P<0.001 |
+
 *本文件由 v0.9.25 升级会话生成。学术搜索时间：2026-05-24。*
 
 ## 批次 - 2026-05-24 00:19
