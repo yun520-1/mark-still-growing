@@ -183,3 +183,4 @@ Do NOT:
 |------|------|---------|---------|
 | HeartFlow论文章库 | 2026-05-28 | "父母的大脑"神经科学模块+"科技分心"章节+"青少年大脑"发育事实+执行功能/情绪调节研究数据 | mark-still-growing |
 | HeartFlow心虫源码 | 2026-05-29 | 愤怒按停术(STOP Protocol)+BlindSpotBreaker养育反思协议+SpontaneousRestraint克制引擎 → 转化为父母可用的按停步骤和AI对话示例 | mark-still-growing |
+| **本 session 新教训** | 2026-05-29 | **patch工具对大文件多相似模式失效** — 当SKILL.md有193个相似行（如"运行方式：\`python scripts/YOUR_SCRIPT.py\`"）时，patch报"Found N matches"。解决：Python直接读文件+str.replace()，或找unique context。**OpenAlex对心理学niche查询失效** — "Triple P"匹配心脏论文，"PCIT"匹配医疗协议。用已知高引用作者搜索（Sarkadi/Roskam/Neff等）而非关键词。 | mark-still-growing |
