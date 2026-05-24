@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.9.25] — 2026-05-24
+
+### 新增2025-2026年研究发现
+
+**新增5项研究到 references/research_data.md：**
+
+- **新增研究9**：*The impact of trauma and how to intervene: a narrative review of psychotraumatology over the past 15 years* (European Journal of Psychotraumatology, 2025)
+  - 15年创伤心理学系统性综述
+  - 核心原则：安全、稳定、连接
+  - 印证：觉察→接纳→暂停→选择路径与创伤干预核心原则一致
+
+- **新增研究10**：*Bowen family systems theory and practice: Illustration and critique revisited* (Australian and New Zealand Journal of Family Therapy, 2024)
+  - Bowen家庭系统理论当代应用
+  - 自我分化是核心概念
+  - 印证：错位框架与家庭系统理论高度契合
+
+- **新增研究11**：*Psychological and social factors influencing mother–child bonding in the first year after birth* (Frontiers in Psychology, 2025)
+  - 母亲-婴儿纽带形成的心理和社会因素
+  - 支持"生命最初1000天"框架
+
+- **新增研究12**：*Defying risk: moving from resilience to the capacity to adapt* (Frontiers in Psychology, 2025)
+  - 从"韧性"到"适应能力"的范式转变
+  - 为能力建设视角提供支持
+
+- **新增研究13**：*Parenting Style and Adolescent Mental Health* (Frontiers in Psychology, 2021, 引用126次)
+  - 养育风格通过自尊和心理僵化影响青少年心理健康
+  - "心理僵化"与本技能"自动化防御"概念对应
+
+### 2026年研究趋势总结
+1. 情绪调节的核心地位进一步证实
+2. 从"问题修复"到"能力建设"视角转换
+3. 早期干预窗口期的重要性
+4. 家庭系统视角的整合
+5. 科技对亲子互动的影响
+
 ## [0.9.22] — 2026-05-24
 
 ### 学术研究支撑章节更新

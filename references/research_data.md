@@ -150,6 +150,108 @@
 ### attachment theory children parenting styles outcomes
 - 搜索失败: can only concatenate list (not "int") to list
 
+## v0.9.25 研究批次 (2026-05-24)
+
+### 新增2025-2026年研究发现
+
+#### 9. 创伤干预叙事综述
+
+**论文**：*The impact of trauma and how to intervene: a narrative review of psychotraumatology over the past 15 years* (2025)
+**期刊**：European Journal of Psychotraumatology
+**引用**：31次
+
+**核心发现**：
+- 15年创伤心理学的系统性综述
+- 创伤干预的核心原则：安全、稳定、连接
+- 家庭系统干预对创伤恢复的重要性
+- 早期干预比晚期干预效果更好
+
+**对技能的核心支撑**：
+- 本技能的"觉察→接纳→暂停→选择"路径与创伤干预核心原则一致
+- 强调"连接"在恢复中的作用——与本技能强调亲子关系修复一致
+
+---
+
+#### 10. 家庭系统理论实践综述
+
+**论文**：*Bowen family systems theory and practice: Illustration and critique revisited* (2024)
+**期刊**：Australian and New Zealand Journal of Family Therapy
+**引用**：25次
+
+**核心发现**：
+- Bowen家庭系统理论的当代应用
+- 自我分化（differentiation）是核心概念
+- 三角关系在家庭冲突中的作用
+
+**对技能的核心支撑**：
+- 本技能的"错位"框架与家庭系统理论高度契合
+- "父母→孩子"的投射与Bowen的"自我分化"概念相关
+
+---
+
+#### 11. 母亲-婴儿依恋的心理学因素
+
+**论文**：*Psychological and social factors influencing mother–child bonding in the first year after birth* (2025)
+**期刊**：Frontiers in Psychology
+**引用**：27次
+
+**核心发现**：
+- 母亲-婴儿纽带形成的心理和社会因素
+- 产后情绪对依恋形成的影响
+- 早期干预对母子关系的重要性
+
+**对技能的核心支撑**：
+- 支持"生命最初1000天"框架
+- 强调母亲情绪调节对婴儿发展的影响
+
+---
+
+#### 12. 韧性适应性预防研究
+
+**论文**：*Defying risk: moving from resilience to the capacity to adapt* (2025)
+**期刊**：Frontiers in Psychology
+**引用**：2次
+
+**核心发现**：
+- 从"韧性"到"适应能力"的范式转变
+- 适应性能力可被培养
+- 环境因素对适应能力的影响
+
+**对技能的核心支撑**：
+- 从"问题修复"到"能力建设"的视角转换
+- 环境（家庭系统）在塑造适应能力中的关键作用
+
+---
+
+#### 13. 养育风格与青少年心理健康
+
+**论文**：*Parenting Style and Adolescent Mental Health: The Chain Mediating Effects of Self-Esteem and Psychological Inflexibility* (2021)
+**期刊**：Frontiers in Psychology
+**引用**：126次
+
+**核心发现**：
+- 养育风格通过自尊和心理僵化影响青少年心理健康
+- 权威型养育与更好的心理健康结果相关
+- 心理僵化是中介变量——与本技能"自动化防御"概念对应
+
+**对技能的核心支撑**：
+- 证实养育风格与儿童心理健康的关系
+- "心理僵化"概念支持本技能的"自动化防御"框架
+
+---
+
+### 2026年研究趋势总结
+
+1. **情绪调节的核心地位**：父母情绪调节能力作为代际传递的关键中介变量得到进一步证实
+2. **韧性与适应能力**：从"避免负面结果"转向"培养积极适应能力"
+3. **早期干预窗口**：生命早期1000天的重要性得到更多实证支持
+4. **家庭系统视角**：个体问题需要在家庭系统框架中理解和干预
+5. **科技影响**：屏幕时间和数字媒体对亲子互动的影响日益受到关注
+
+---
+
+*本文件由 v0.9.25 升级会话生成。学术搜索时间：2026-05-24。*
+
 ## 批次 - 2026-05-24 00:19
 
 ### intergenerational trauma Chinese parents 80s 90s
