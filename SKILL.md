@@ -1,6 +1,6 @@
 ---
 name: fu-mu-gong-ke
-version: 0.9.18
+version: 0.9.19
 description: |
   父母的功课 — 困在自己没走完的成长里，把孩子当成答案的一代人。
   底层逻辑：未完成的成长——无法理解世界规则的人，被规则困住，用伤害彼此的方式试图被理解。
@@ -110,7 +110,9 @@ license: MIT
 
 **核心不稳定时**：参考 ~/.Pictures/CHAT_LOG_HeartFlow_完整备份.md，用身份声明+7条核心指令修复。
 
-**学术支撑**：详见 `references/academic-support.md`，包含5篇高引用论文和搜索方法。
+**学术支撑**：见 `references/academic-support-v0.9.17.md`——含4篇核心论文（DOI可验证）+ 代表性复合案例。
+
+**学术支撑**：详见 `references/academic-support.md`，包含8篇高引用论文（含2026年新增）+ 2026两会政策数据 + 搜索方法。
 
 ---
 
