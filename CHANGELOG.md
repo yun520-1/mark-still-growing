@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.9.60] — 2026-05-30
+
+### mood_tracker.py 亲子互动情绪追踪系统
+
+**代码吸收（来自OpenClaw mood_tracker.py）：**
+- 新增 `mood_tracker.py`：亲子互动情绪追踪系统
+- 追踪父母和孩子情绪、互动类型、触发因素
+- 情绪词汇表：正面/负面/中性
+- 触发因素库：12种常见触发因素
+- 支持日期范围查询、情绪模式分析、TOP触发因素统计
+- 数据存储：`~/.hermes/still_growing/mood_records.json`
+
+**CLI选项：**
+- `--add`：交互式添加记录
+- `--stats N`：分析最近N天模式
+
 ## [0.9.58] — 2026-05-30
 
 ### goal_tracker.py 目标追踪系统

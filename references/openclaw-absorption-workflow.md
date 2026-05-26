@@ -1,59 +1,83 @@
-# OpenClaw → mark-still-growing 吸收工作流
+# OpenClaw 代码吸收工作流
 
-## 适用场景
-从 `~/.jvs/.openclaw/skills/skills/still-growing/` 吸收代码到 `~/.hermes/skills/mark-still-growing/`
+## 何时使用
 
-## 标准流程
+当需要从 OpenClaw 版本吸收代码到 mark-still-growing 时使用本流程。
 
-### 1. 分析阶段（可并行）
-```python
-# 并发分析多个模块
-delegate_task([
-  {"goal": "分析 core_v2.py IntentEngine"},
-  {"goal": "分析 communication_analyzer.py"},
-  {"goal": "对比 mark-still-growing 已有功能"}
-])
-```
+## 标准步骤
 
-### 2. 代码集成
-- 读取 OpenClaw 源文件
-- 适配 mark-still-growing 风格（中文注释、DATA_DIR 路径）
-- 新功能添加到 `scripts/`
-- 新类添加到 `assessment.py` 或独立文件
+1. **读取源文件**
+   ```bash
+   # OpenClaw 路径
+   ~/.jvs/.openclaw/skills/skills/still-growing/scripts/
+   
+   # mark-still-growing 目标路径
+   ~/.hermes/skills/mark-still-growing/scripts/
+   ```
 
-### 3. 版本更新（同步三处）
-```bash
-# VERSION 文件
-echo "0.9.xx" > VERSION
+2. **评估依赖**
+   - 优先吸收**独立模块**（无外部依赖）
+   - 如有依赖 `core_logic.py`，需一并复制或重构
+   - education_system.py 依赖 core_logic.py → 暂不吸收
 
-# SKILL.md frontmatter
-sed -i 's/version: 0.9.xx/version: 0.9.xx/' SKILL.md
+3. **创建目标文件**
+   - 直接复制代码到目标目录
+   - **立即运行语法检查**：`python3 -m py_compile scripts/xxx.py`
 
-# CHANGELOG.md
-```
+4. **版本同步**（四文件必须一致）
+   - `VERSION` 文件
+   - `SKILL.md` frontmatter `version:`
+   - `CHANGELOG.md` 新增条目
+   - Git commit message
 
-### 4. GitHub 推送
-```bash
-git add -A
-git commit -m "v0.9.xx: 升级说明"
-git push origin main
-# 网络超时则重试
-```
+5. **Git 推送**
+   ```bash
+   cd ~/.hermes/skills/mark-still-growing
+   git add -A && git commit -m "vX.Y.Z: 描述" && git push origin main
+   ```
 
-## 关键路径
-- OpenClaw 源码: `~/.jvs/.openclaw/skills/skills/still-growing/scripts/`
-- mark-still-growing: `~/.hermes/skills/mark-still-growing/`
-- GitHub remote: `origin` (https://github.com/yun520-1/mark-still-growing)
+## 已吸收模块清单
 
-## 已吸收模块记录
 | 版本 | 模块 | 来源 |
 |------|------|------|
-| v0.9.55 | parenting_assessment, communication_analyzer | OpenClaw |
-| v0.9.56 | EmotionAnalyzer | core_v2.py |
-| v0.9.57 | IntentEngine, PatternLibrary | core_v2.py |
-| v0.9.58 | goal_tracker | goal_tracker.py |
+| v0.9.55 | parenting_assessment + communication_analyzer | OpenClaw |
+| v0.9.56 | EmotionAnalyzer | OpenClaw core_v2.py |
+| v0.9.57 | IntentEngine + PatternLibrary | OpenClaw core_v2.py |
+| v0.9.58 | goal_tracker.py | OpenClaw |
+| v0.9.59 | education_analyzer.py | OpenClaw ai_agent_integration.py |
 
-## 常见问题
-- **语法错误**: `python3 -m py_compile scripts/xxx.py`
-- **GitHub push 超时**: 等待10-30秒后重试
-- **类型错误**: 使用 `Optional[T]` 而非 `T = None`
+## 已知陷阱
+
+### 中文引号导致 Python 语法错误
+
+**问题**：`write_file` 保留 Unicode 字符，但当文件中包含 `"text"` 形式的_curly quotes_（中文弯引号 U+201C/U+201D）在 Python 字符串内时，解释器误将其解析为 ASCII 引号导致字符串提前终止。
+
+**错误现象**：
+```
+SyntaxError: invalid syntax (line N, column X)
+```
+
+**解决方案**：
+1. 替换为中文书名号 `「」`
+2. 或使用单引号 `'`
+3. **最佳实践**：创建文件后立即运行 `python3 -m py_compile` 验证
+
+**示例修复**：
+```python
+# 错误
+"logic": "标签会变成孩子的身份认同——"我笨"成为自我定义"
+
+# 正确
+"logic": "标签会变成孩子的身份认同——「我笨」成为自我定义"
+```
+
+### GitHub Push 网络超时
+
+**现象**：推送失败 `Failed to connect to github.com port 443`
+
+**解决**：等待几秒后重试，通常第二次成功
+
+## 待吸收模块
+
+- `core_logic.py` + `education_system.py`：哲学框架，依赖较多，暂缓
+- `ai_agent_integration.py`：已作为 education_analyzer.py 吸收
