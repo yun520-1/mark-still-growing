@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.9.56] — 2026-05-30
+
+### Bug修复 + EmotionAnalyzer集成
+
+**代码审计修复：**
+- 修复 `--all` 遗漏 `communication_assessment` 严重Bug
+- 统一所有 `input()` 的 `.strip()` 处理
+
+**代码吸收（来自OpenClaw core_v2.py）：**
+- 新增 `EmotionAnalyzer` 类：情感检测/强度/情绪词提取
+- `communication_assessment()` 集成情感分析：显示情感倾向、强度、匹配情绪词
+- 返回结果新增 `emotion`、`emotion_intensity`、`detected_emotions` 字段
+
 ## [0.9.55] — 2026-05-30
 
 ### OpenClaw代码吸收：教养风格评估 + 沟通模式检测

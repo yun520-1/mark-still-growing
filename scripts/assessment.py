@@ -24,6 +24,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
+from typing import List
 
 DATA_DIR = Path.home() / ".hermes" / "still_growing"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -228,6 +229,48 @@ COMMUNICATION_POSITIVE_PATTERNS = {
 }
 
 
+# ========================
+# 情感分析引擎 (v0.9.55新增)
+# 来源: OpenClaw core_v2.py EmotionAnalyzer
+# ========================
+
+class EmotionAnalyzer:
+    """情感分析引擎 - 检测文本情感倾向和强度"""
+
+    POSITIVE_WORDS = {"开心", "快乐", "幸福", "兴奋", "满足", "爱", "喜欢", "高兴", "愉快", "欣慰", "温暖", "感动", "自豪", "轻松"}
+    NEGATIVE_WORDS = {"生气", "愤怒", "伤心", "难过", "焦虑", "恐惧", "绝望", "崩溃", "无助", "委屈", "压抑", "沉重", "紧张", "害怕", "担忧"}
+    INTENSITY_MARKERS = ["非常", "极其", "完全", "彻底", "超级", "极度", "太", "好", "真的"]
+
+    @classmethod
+    def detect(cls, text: str) -> str:
+        """检测情感倾向: positive / negative / neutral"""
+        p = sum(1 for w in cls.POSITIVE_WORDS if w in text)
+        n = sum(1 for w in cls.NEGATIVE_WORDS if w in text)
+        if n > p:
+            return "negative"
+        elif p > n:
+            return "positive"
+        return "neutral"
+
+    @classmethod
+    def intensity(cls, text: str) -> int:
+        """计算情感强度: 1-10"""
+        base = 5
+        for marker in cls.INTENSITY_MARKERS:
+            if marker in text:
+                base = min(10, base + 1)
+        return base
+
+    @classmethod
+    def extract_emotions(cls, text: str) -> List[str]:
+        """提取匹配到的情绪词"""
+        matched = []
+        for word in cls.POSITIVE_WORDS | cls.NEGATIVE_WORDS:
+            if word in text:
+                matched.append(word)
+        return matched
+
+
 def communication_assessment():
     """沟通模式评估 - 检测4负面+4正面模式
     
@@ -288,6 +331,11 @@ def communication_assessment():
             })
             total_positive += pattern["weight"]
 
+    # 情感分析 (v0.9.55新增)
+    emotion_result = EmotionAnalyzer.detect(text)
+    emotion_intensity = EmotionAnalyzer.intensity(text)
+    detected_emotions = EmotionAnalyzer.extract_emotions(text)
+
     # 计算健康比例
     if total_positive > 0 or total_negative > 0:
         ratio = total_positive / (total_positive + total_negative)
@@ -325,6 +373,12 @@ def communication_assessment():
 
     print(f"\n沟通健康度: {health_ratio}%")
     print(f"评估: {recommendation}")
+
+    # 情感分析结果 (v0.9.55新增)
+    emotion_emoji = {"positive": "😊", "negative": "😢", "neutral": "😐"}
+    print(f"\n情感分析: {emotion_emoji.get(emotion_result, '')} {emotion_result} (强度: {emotion_intensity}/10)")
+    if detected_emotions:
+        print(f"情绪词: {', '.join(detected_emotions)}")
     print("=" * 50)
 
     return {
@@ -335,7 +389,10 @@ def communication_assessment():
         "health_ratio": health_ratio,
         "level": recommendation,
         "negative_patterns": [p["name"] for p in negative_found],
-        "positive_patterns": [p["name"] for p in positive_found]
+        "positive_patterns": [p["name"] for p in positive_found],
+        "emotion": emotion_result,
+        "emotion_intensity": emotion_intensity,
+        "detected_emotions": detected_emotions
     }
 
 
@@ -581,6 +638,9 @@ def main():
         print("\n按Enter继续教养风格评估...")
         input()
         results.append(parenting_style_assessment())
+        print("\n按Enter继续沟通模式评估...")
+        input()
+        results.append(communication_assessment())
 
         # 汇总
         print("\n" + "=" * 50)
