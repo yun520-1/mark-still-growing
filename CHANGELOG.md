@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.58] — 2026-05-30
+
+### goal_tracker.py 目标追踪系统
+
+**代码吸收（来自OpenClaw goal_tracker.py）：**
+- 新增 `goal_tracker.py`：家庭教育目标追踪系统
+- `GoalStatus` 枚举：未开始/进行中/已完成/已暂停/已取消
+- `GoalCategory` 枚举：沟通改善/纪律管教/情绪管理/习惯养成/学业支持/亲子关系/其他
+- 支持目标创建、进度追踪、里程碑管理、仪表板统计
+- 数据存储：`~/.hermes/still_growing/goals.json`
+
+**CLI选项：**
+- `--create`：交互式创建目标
+- `--dashboard`：查看目标仪表板
+- `--list`：列出所有目标
+- `--progress`：添加进度
+
 ## [0.9.57] — 2026-05-30
 
 ### IntentEngine + PatternLibrary 集成
