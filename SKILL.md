@@ -9995,3 +9995,27 @@ ODD儿童的行为常被误读：
 - 父母话术急救箱：可直接使用的具体话术
 - 悲哀三层结构 × 错位框架整合
 
+---
+
+## 与HeartFlow集成
+
+still-growing是场景处理器，HeartFlow是判断引擎。两者协同工作：
+
+| 场景 | HeartFlow做什么 | still-growing输出 |
+|------|---------------|-----------------|
+| 用户描述亲子冲突 | `whatIsThis()`识别类型 | BlindSpotBreaker L1~L6评估 |
+| 用户情绪崩溃 | `shouldAcknowledge()`先接住 | 慈悲话术，不分析 |
+| 用户回忆童年 | `detectLonging()`检测创伤 | 代际传递追溯 |
+| 用户感到孤立 | `detectLoneliness()`识别孤立 | 系统性母亲困境分析 |
+| 需要给建议前 | `isRightAction()`真善美检验 | 确保建议不伤害 |
+| 用户问"为什么" | `whyDriven()`触发搜索 | 学术论文支撑 |
+
+**协作流程：**
+用户输入 → HeartFlow判断场景类型 → 委托still-growing处理 → still-growing输出 → HeartFlow真善美检验 → 最终回应
+
+**HeartFlow为still-growing带来的提升：**
+- 判断不再是字符串匹配，是真正的语义理解
+- 输出前有真善美检验，不会说出伤害人的话
+- 有自我检测：自欺检测、沉默检测
+- 有学术支撑：whyDriven触发论文搜索
+
