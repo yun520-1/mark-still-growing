@@ -1,6 +1,6 @@
 ---
 name: fu-mu-gong-ke
-version: 0.9.21
+version: 0.9.60
 description: 父母的功课 — 困在自己没走完的成长里，把孩子当成答案的一代人。
 tags:
   - parenting

@@ -1,0 +1,8 @@
+# mark-still-growing Python 依赖
+# 安装: pip install -r requirements.txt
+#
+# 注意：所有脚本均使用 Python 标准库，无需额外安装任何包。
+# 此文件用于声明依赖和文档目的。
+
+# 如需运行可视化脚本（scripts/visualize.py），可选安装：
+# matplotlib>=3.5.0
